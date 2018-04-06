@@ -2,7 +2,7 @@ package recursionPuzzles;
 import java.util.Scanner;
 public class DeterminingStringCharacters {
 
-
+	
 
 	public static boolean isPal(String s)
 	                  {
@@ -22,5 +22,8 @@ public class DeterminingStringCharacters {
 	                          System.out.println(string + " is a palindrome");
 	                      else
 	                          System.out.println(string + " is not a palindrome");
+	  
+	     scanner.close();
 	                  }
 	              }
+
